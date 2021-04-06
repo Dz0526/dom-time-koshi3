@@ -40,7 +40,7 @@ function TabPanel(props) {
         <Box p={3}>
           <Typography>{children}</Typography>
           <TabContentCard index={index} times={times}  />
-          <p>高志3階</p>
+          <p>高志2階 3I</p>
         </Box>
       )}
     </div>
@@ -77,27 +77,27 @@ function App() {
   const [times, setTimes] = React.useState([
     {
       breakfast: '08:15~08:35',
-      lunch: '12:25~12:45',
+      lunch: '12:50~13:10',
       dinner: '17:35~18:00',
-      bath: '19:30~19:50',
+      bath: '19:10~19:30',
     },
     {
       breakfast: '07:55~08:15',
-      lunch: '12:50~13:10',
+      lunch: '12:25~12:45',
       dinner: '18:05~18:30',
-      bath: '18:50~19:10',
+      bath: '17:30~17:50',
     },
     {
       breakfast: '08:10~08:30',
-      lunch: '12:30~12:50',
+      lunch: '12:55~13:15',
       dinner: '17:30~17:55',
-      bath: '18:30~18:50',
+      bath: '19:30~19:50',
     },
     {
       breakfast: '07:50~08:10',
-      lunch: '12:55~13:15',
+      lunch: '12:30~12:50',
       dinner: '18:00~18:25',
-      bath: '19:10~19:30',
+      bath: '18:30~18:50',
     }
   ]);
 
